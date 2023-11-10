@@ -1,0 +1,224 @@
+body {
+    padding: 4rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+header nav li,
+a {
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header button {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    width: 12rem;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 1rem;
+}
+
+.Car {
+    display: flex;
+}
+
+.Car .text h1 {
+    font-size: 4rem;
+    width: 30rem;
+}
+
+.Car button {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    width: 12rem;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 1rem;
+}
+
+.Car img {
+    width: 130%;
+}
+
+.car2 {
+    text-align: center;
+}
+
+.car2 .container {
+    display: flex;
+    gap: 8rem;
+}
+
+.car2 .container .card {
+    background-color: aqua;
+    padding: 3rem;
+}
+
+.car3 {
+    color: skyblue;
+    cursor: pointer;
+}
+
+.car3 header {
+    color: black;
+    margin-left: 25rem;
+
+}
+
+.image {
+    display: flex;
+}
+
+.image img {
+    width: 20rem;
+}
+
+.car4 button {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    width: 6rem;
+    ;
+    border: none;
+    margin-top: 1rem;
+    margin-left: 30rem;
+}
+
+.car4 h4 {
+    color: skyblue;
+}
+
+@media screen and (max-width:500px) {
+    body {
+        background-color: red;
+    }
+
+    body {
+        padding: 2rem;
+    }
+
+    button {
+        cursor: pointer;
+    }
+
+    header {
+        display: grid;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    header nav {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        position: relative;
+        bottom: 7rem;
+
+    }
+
+    header nav li,
+    a {
+        color: black;
+        list-style: none;
+        text-decoration: none;
+    }
+
+    header button {
+        background-color: black;
+        color: white;
+        padding: 1rem;
+        width: 16rem;
+        border-radius: 1rem;
+        border: none;
+        margin-top: 1rem;
+    }
+
+    .Car {
+        display: flex;
+    }
+
+    .Car .text h1 {
+        font-size: 2rem;
+        width: 1rem;
+    }
+
+    .Car button {
+        background-color: black;
+        color: white;
+        padding: 1rem;
+        width: 12rem;
+        border-radius: 1rem;
+        border: none;
+        margin-top: 1rem;
+    }
+
+    .Car img {
+        width: 100%;
+    }
+
+    .car2 {
+        text-align: center;
+    }
+
+    .car2 .container {
+        display: grid;
+        gap: 2rem;
+    }
+
+    .car2 .container .card {
+        background-color: aqua;
+        padding: 3rem;
+    }
+
+    .car3 {
+        color: skyblue;
+        cursor: pointer;
+    }
+
+    .car3 header {
+        color: black;
+        margin-left: 1rem;
+
+    }
+
+    .image {
+        display: grid;
+    }
+
+    .image img {
+        width: 15rem;
+    }
+
+    .car4 button {
+        background-color: black;
+        color: white;
+        padding: 1rem;
+        width: 6rem;
+        ;
+        border: none;
+        margin-top: 1rem;
+        margin-left: 30rem;
+    }
+
+    .car4 h4 {
+        color: skyblue;
+    }
+}
